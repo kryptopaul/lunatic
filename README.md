@@ -1,7 +1,7 @@
 
 # Lunatic
 
-A Python bot monitoring your current LUNA holdings and sending updates to your Discord server.
+A Python bot monitoring your current LUNA holdings and sending updates to your Discord server in real time.
 
 
 
