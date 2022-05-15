@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 {
     "discord_webhook": "",
     "luna_balance": 217778.85,
     "refresh_rate": 5
-=======
-{
-    "discord_webhook": "",
-    "luna_balance": 217778.85,
-    "refresh_rate": 5
->>>>>>> 630ee25fa0a6b1178870d8fd240d42b511158a71
 }
