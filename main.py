@@ -13,7 +13,8 @@ def main():
     luna_balance = config['luna_balance']
     discord_webhook = config['discord_webhook']
     refresh_rate = config['refresh_rate']
-
+    
+    #Message for Discord
     message = {
       "content": None,
       "embeds": [
@@ -35,8 +36,8 @@ def main():
       "attachments": []
     }
 
+    #Send the request and wait <refresh_rate> seconds 
     requests.post(discord_webhook, json=message)
-    print("Update sent!")
     time.sleep(refresh_rate)
 
 if __name__ == "__main__":
