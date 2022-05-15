@@ -8,7 +8,7 @@ A Python bot monitoring your current LUNA holdings and sending updates to your D
 ## Requirements
 
 - A Discord Webhook.
-- Preferably a remote server.
+- Preferably a remote server to run the bot on.
 ## Installation
 
 Open the config.json file and fill in the Discord webhook, your LUNA balance (separated by a ".") and a refresh rate in seconds.
